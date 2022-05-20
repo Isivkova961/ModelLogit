@@ -10,9 +10,9 @@ namespace ModelLogit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("КА - тип сосудистого поражения коронарных артерий по данным коронаангиографий");
+            Console.WriteLine("КА - тип сосудистого поражения коронарных артерий по данным коронароангиографии");
             Console.WriteLine("1 - двухсосудистое, трехсосудистое поражение коронарных артерий");
-            Console.WriteLine("0 - однососудистое порожение коронарных артерий и отсутствие");
+            Console.WriteLine("0 - однососудистое поражение коронарных артерий и отсутствие");
             Console.WriteLine("Введите 0 или 1 для КА: ");
             string KAnum = Console.ReadLine();
             int KA = Convert.ToInt32(KAnum);
